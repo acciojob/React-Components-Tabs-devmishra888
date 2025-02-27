@@ -8,9 +8,9 @@ const App=()=>{
     return(
         <div>
             <div className=" tabs">
-            <button className=" tab" id="Home-tab" onClick={()=>setTap("Home")}>Home</button>
-            <button  className=" tab" id="About-tab" onClick={()=>setTap("About")}>About</button>
-            <button className="tab" id="Features-tab" onClick={()=>setTap("Features")}>Features</button>
+            <button className=" tab" id="#Home-Tab" onClick={()=>setTap("Home")}>Home</button>
+            <button  className=" tab" id="#About-Tab" onClick={()=>setTap("About")}>About</button>
+            <button className="tab" id="#Features-Tab" onClick={()=>setTap("Features")}>Features</button>
             </div>
 
             <div className="viewport">
